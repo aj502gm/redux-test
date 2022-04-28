@@ -7,7 +7,7 @@ const RoutesList = () => (
     <BrowserRouter>
         <Routes>
             <Route path = "/" element = {<Home />}/>
-            <Route path = "/results" element = {<Results />}/>
+            <Route path = "/results/:pokemon" element = {<Results />}/>
             <Route path = "/resultsDetails" element = {<Details />}/>
         </Routes>
     </BrowserRouter>
